@@ -11,13 +11,11 @@ if(isset($_POST['borrar']) && isset($_POST["libro"]))
 <html>
 <head>
 	<title>Borrar libros</title>
-	<link rel="stylesheet" media="screen" href="css/estilo.css" >
+	<link rel="stylesheet" media="screen" href="stylelibrosborrar.css" >
 </head>
-<body>
-
-	<form class="formulario" action="" method="post" name="formulario">
-    <ul>
-        <li>
+<div>
+	<div class="borrado">
+	<div class="formulario" action="" method="post" name="formulario">   
             <label for="libro">Libro:</label>
         	<select name="libro">
         		<?php
@@ -32,23 +30,25 @@ if(isset($_POST['borrar']) && isset($_POST["libro"]))
 	            	
             ?>
         	</select>
-        </li>
+	</div>
+	<button class="submit" type="submit" name="borrar">Borrar</button>
 
-        <li>
-            <button class="submit" type="submit" name="borrar">Borrar</button>
-        </li>
-    </ul>
+	<br>
+	<br>
+	<br>
+	<br>
 
     <?php 
     	if(isset($mensaje))
     	{
-    		echo "<div class='aviso'>El precio del libro borrado era $mensaje €</div>";
+    		echo "<div class='aviso'>El precio del libro borrado era: $mensaje €</div>";
     	}
     ?>
-
+	</div>
 </form>
-
 <br>
-<a href="libros_MySQLi.php">Volver</a>
+<button>
+<a href="libros.php">Volver</a>
+</button>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Guardar libros</title>
-	<link rel="stylesheet" media="screen" href="css/estilo.css" >
+	<link rel="stylesheet" media="screen" href="stylelibrosguardar.css" >
 </head>
 <body>
 
@@ -84,7 +84,9 @@ if ($todoOK)
 
 ?>
 <br>
+<button>
 <a href="libros_MySQLi.php">Volver</a>
+</button>
 </body>
 </html>
 

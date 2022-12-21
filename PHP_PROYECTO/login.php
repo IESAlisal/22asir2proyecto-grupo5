@@ -34,6 +34,18 @@ if (isset($_POST['login'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+          text-align:center;
+      }
+      #menu{
+          display:inline-block;
+          text-align:left;
+      }
+      #menu li{
+          margin-top:2em;
+      }
+    </style>
     <title>LOGIN GRUPO-5</title>
 
   </head>

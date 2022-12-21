@@ -18,8 +18,12 @@
   body {
     font-family: 'Raleway';
     color: #1a1a1a;
-    background-color: #f0f0f0; }
+    background-image: url(background6.svg);
+    animation: rotate 6s infinite alternate linear;
+    background-size: cover;
+   }
   
+
   h1,
   h2,
   h3,
@@ -72,8 +76,8 @@
       .button--close svg * {
         fill: currentColor; }
     .button--close:hover, .button--close:active, .button--close:focus {
-      color: blue;
-      background-color: #ffffff;
+      color: #041c2e;
+      background-color: #FBAE3C;
       box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1); }
   
   .button--info {
@@ -107,7 +111,7 @@
         font-weight: 600;
         font-size: 11px;
         letter-spacing: .5px;
-        color: #939393; }
+        color: #989898; }
       .form-list__row--inline {
         display: -ms-flexbox;
         display: flex;
@@ -134,7 +138,7 @@
       .form-list__row--agree label {
         font-weight: 400;
         text-transform: none;
-        color: #676767; }
+        color: #6d6d6d; }
       .form-list__row--agree input {
         width: auto;
         margin-right: 5px; }
@@ -191,7 +195,7 @@
       min-height: 400px;
       margin-bottom: 125px;
       background-color: #ffffff;
-      border-radius: 5px;
+      border-radius: 25px;
       box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1); }
     .modal__featured {
       position: relative;
@@ -226,29 +230,28 @@
           flex: 3;
       padding: 40px 30px; }
 
-
     a {
-        color: #216ce7;
-        font-size: 1rem;
+        color: #FBAE3C;
+        font-size: 0.8rem;
         text-decoration: none;
         margin-bottom: 6px;
         transition: all 0.375s;
     }
 
     a:hover{
-        color: #10449a;
+        color: #ab6600;
         letter-spacing: 0.15px;
     }
 
 
     button {
     cursor: pointer;
-    color: black;
-    border-radius: 1.25rem;
+    border-radius: 0.5rem;
+    border-width: 0.5cm;
     background-color: white;
     border: 0;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1.12rem;
     font-weight: 600;
     text-align: center;
     transition: all 0.375s;
@@ -262,3 +265,20 @@
         font-size: small;
         color: red;
     }
+
+@keyframes rotate{
+  100%{
+    background-position: 10% 5%;
+  }
+}
+  
+  @media (width >= 500px){
+      body{
+          padding: 0;
+      }
+  
+      .login-card{
+          margin: 0;
+          width: 400px;
+      }
+  }

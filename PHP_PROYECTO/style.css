@@ -13,8 +13,7 @@ body{
     place-items: center;
     margin: 0;
     padding: 0 24px;
-    background-color: whitesmoke;
-    background-repeat: no-repeat;
+    background-image: url(background.svg);
     background-size: cover;
     font-family: "Raleway";
     color: black;
@@ -25,8 +24,8 @@ body{
     position: relative;
     z-index: 3;
     width: 75%;
-    margin: 200px;
-    top: 70px;
+    margin: 50px;
+    top: 60px;
     padding: 70px 30px 44px;
     border-radius: 1.25rem;
     background: white;

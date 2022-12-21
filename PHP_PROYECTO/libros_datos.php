@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title>Guardar libros</title>
-	<link rel="stylesheet" media="screen" href="css/estilo.css" >
+	<link rel="stylesheet" media="screen" href="stylelibrosdatos.css" >
 </head>
 <body>
-
+<div class="tabla2">
 <table class="tabla">
 	<tr>
 		<th>Número de ejemplar</th>
@@ -14,7 +14,7 @@
 		<th>Precio</th>
 		<th>Fecha de adquisición</th>
 	</tr>
-
+<br>
 <?php
 require_once 'funcionesBaseDatos.php';
 
@@ -31,8 +31,11 @@ foreach($libros as $libro)
 }
 ?>
 </table>
+</div>
 
 <br>
+<button>
 <a href="libros.php">Volver</a>
+</button>
 </body>
 </html>

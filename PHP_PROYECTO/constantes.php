@@ -1,8 +1,8 @@
 <?php
 
-define("HOST", "database-1.cs0ubfehgyz2.us-east-1.rds.amazonaws.com");
-define("USERNAME", "admin");
-define("PASSWORD", "Monitor'2000");
+define("HOST", "localhost");
+define("USERNAME", "root");
+define("PASSWORD", "");
 define("DATABASE", "libros2");
 
 ?>

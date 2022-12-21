@@ -2,11 +2,11 @@
 <html>
 <head>
 	<title>Guardar libros</title>
-	<link rel="stylesheet" media="screen" href="css/estilo.css" >
+	<link rel="stylesheet" media="screen" href="stylelibrosguardar.css" >
 </head>
 <body>
 
-
+<div class="guardado">
 <?php
 include_once 'funcionesBaseDatos.php';
 
@@ -83,8 +83,11 @@ if ($todoOK)
 
 
 ?>
+</div>
 <br>
+<button>
 <a href="libros.php">Volver</a>
+</button>
 </body>
 </html>
 
