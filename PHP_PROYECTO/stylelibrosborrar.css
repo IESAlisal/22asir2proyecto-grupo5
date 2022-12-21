@@ -27,8 +27,8 @@ body{
     z-index: 3;
     width: 90%;
     padding-top: 10px;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 10px;
     margin: auto;
     border-radius: 0.7rem;
@@ -39,10 +39,10 @@ body{
 
 .borrado > button{
     padding: auto;
-    margin: 0 0 20;
+    margin: 2 2 2;
     position: relative;
     z-index: 3;
-    width: 50%;
+    width: 100%;
     transition: all 0.25s;
 }
 
@@ -52,19 +52,19 @@ body{
     letter-spacing: 0.5px;
 }
 
-.borrado > .aviso {
+.borrado > echo {
     margin: 0 0 20;
     padding: auto;
-    color: white;
+    color: black;
 }
 
 button{
     transition: all 0.25s;
     background-color: white;
     border-radius: 1.25rem;
-    width: 15%;
+    width: 100%;
     padding: 10px 10px 10px;
-    margin-top: 30%;
+    margin-top: 120%;
     border: 0;
     font-family: "Raleway";
 }
