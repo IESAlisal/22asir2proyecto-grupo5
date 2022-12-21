@@ -37,7 +37,6 @@ if(isset($_POST['borrar']) && isset($_POST["libro"]))
 	<br>
 	<br>
 	<br>
-
     <?php 
     	if(isset($mensaje))
     	{
@@ -48,7 +47,7 @@ if(isset($_POST['borrar']) && isset($_POST["libro"]))
 </form>
 <br>
 <button>
-<a href="libros.php">Volver</a>
+<a href="index.php">Volver</a>
 </button>
 </body>
 </html>
