@@ -23,14 +23,14 @@
     background-size: cover;
    }
   
-
+   .modal__content >
   h1,
   h2,
   h3,
   h4,
   h5 {
     margin: 0;
-    font-weight: 500; }
+    font-weight: 800px; }
   
   .modal__featured > .button {
     color: #ffffff;
@@ -42,7 +42,7 @@
     border: 0;
     border-radius: 2px;
     outline: 0;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 30px 20px rgba(0, 0, 0, 0.2);
     transition: all 2s; }
 
     .button:hover, .button:active, .button:focus {

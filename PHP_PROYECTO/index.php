@@ -30,11 +30,11 @@ if(!isset($_SESSION["usuario"]) || $_SESSION["usuario"]==null){
         <h1>Bienvenido a la aplicacion de libros</h1>
         <div id="menu">
             <ul>
-            <button><a href="libros_MySQLi.php">Alta Libros</a></button>
+            <button><a href="libros.php">Alta Libros</a></button>
 <br><br>
             <button><a href="libros_actualizar.php">Actualizar Libros</a></button>
 <br><br>
-            <button><a href="libros_borrar_MySQLi.php">Baja Libros</a></button>
+            <button><a href="libros_borrar.php">Baja Libros</a></button>
             </ul>
         </div>
         <form action='logoff.php' method='post'>
