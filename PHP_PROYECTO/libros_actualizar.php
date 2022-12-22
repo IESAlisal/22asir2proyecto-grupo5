@@ -2,9 +2,10 @@
 <html>
 <head>
 	<title>Ejercicio 8</title>
-	<link rel="stylesheet" media="screen" href="css/estilo.css" >
+	<link rel="stylesheet" media="screen" href="stylelibrosactualizar.css" >
 </head>
 <body>
+<div class="act">
 
 	<?php
 	   ini_set("display_errors",true);
@@ -26,15 +27,11 @@
 	?>
 
 	<form class="formulario" action="" method="post" name="formulario">
-	    <ul>
-		    <li>
-		         <h2>Libros que se van a actualizar</h2>
-		         <span class="mensaje_obligatorio">* Campo obligatorio</span>
-		    </li>
+		<h2>Libros que se van a actualizar</h2>
+		<span class="mensaje_obligatorio">*Campo obligatorio</span>
 
-		    <li>
-		        <label for="libro">Libros:*</label>
-		        <select name="libro">
+		<label for="libro">Libros:*</label>
+		<select name="libro">
 		            <?php
 						$libros = getLibrosTitulo();
 						foreach ($libros as $libro) 
@@ -48,13 +45,10 @@
 						    echo ">$libro</option>";
 						}
 		    		?>
-		        </select>
-		    </li>
-
-		    <li>
-		        <button class="submit" type="submit" name="mostrar">Mostrar</button>
-		    </li>
-		</ul>
+		</select>
+		<div class="mostrar">
+			<button class="submit" type="submit" name="mostrar">Mostrar</button>
+		</div>
 	</form>
 
 	
@@ -93,7 +87,10 @@
 		    }
 		?>		
 		<br>
+</div>
+	<button>
 	<a href="index.php">Volver</a>
+	</button>
 	
 </body>
 </html>
