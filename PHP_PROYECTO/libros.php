@@ -35,7 +35,7 @@
 		        <label for="adquisicion">Fecha de adquisición:*</label>
 		        <input type="date" name="adquisicion" required>
 			<br><br>
-		    	<button class="submit" type="submit" name="guardar">Guardar datos del libro</button>
+		    	<button class="submit" type="submit" name="guardar">Guardar datos</button>
 		    
 	</form>
 	<br><br><br>

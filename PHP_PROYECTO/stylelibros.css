@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&family=Raleway:wght@700&family=Staatliches&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter&family=Quicksand&family=Raleway:wght@700&family=Staatliches&family=Ubuntu:wght@300&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -30,7 +32,11 @@
   h4,
   h5 {
     margin: 0;
-    font-weight: 800px; }
+    font-weight: 100px;
+    font-family: "Homemade apple";
+    letter-spacing: 0.8px;
+    font-size: 30px;
+ }
   
   .modal__featured > .button {
     color: #ffffff;
@@ -232,7 +238,7 @@
 
     a {
         color: #FBAE3C;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         text-decoration: none;
         margin-bottom: 6px;
         transition: all 0.375s;
@@ -255,6 +261,7 @@
     font-weight: 600;
     text-align: center;
     transition: all 0.375s;
+    font-family: "Homemade Apple";
     }
 
     button:hover{
