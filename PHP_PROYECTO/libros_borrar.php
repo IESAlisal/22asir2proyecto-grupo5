@@ -35,8 +35,6 @@ if(isset($_POST['borrar']))
 
 	<br>
 	<br>
-	<br>
-	<br>
 
     <?php 
     	if(isset($mensaje))
@@ -46,7 +44,6 @@ if(isset($_POST['borrar']))
     ?>
 	</div>
 </form>
-<br>
 <button>
 <a href="libros.php">Volver</a>
 </button>
