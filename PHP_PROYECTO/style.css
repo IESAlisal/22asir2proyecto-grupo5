@@ -114,7 +114,7 @@ body{
 
 @keyframes rotate{
     100%{
-        background-position: 10% 5%;
+        background-position: 20% 20%;
     }
 }
 

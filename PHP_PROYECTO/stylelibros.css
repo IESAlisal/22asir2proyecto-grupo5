@@ -244,16 +244,17 @@
         text-decoration: none;
         margin-bottom: 6px;
         transition: all 0.375s;
-        border: solid 2px #001220;
-        background: #001220;
-        border-radius: 15rem;
-        padding: 6px 6px 6px;
+        border: 0.5px solid #FBAE3C;
+        background: white;
+        border-radius: 3rem;
+        padding: 8px 8px 8px;
 
     }
 
     a:hover{
         color: rgb(255, 255, 255);
         letter-spacing: 1px;
+        background-color: #6d6d6d;
     }
 
     .mostrar > a {
@@ -341,7 +342,7 @@
 
 @keyframes rotate{
   100%{
-    background-position: 10% 5%;
+    background-position: 20% 15%;
   }
 }
   
