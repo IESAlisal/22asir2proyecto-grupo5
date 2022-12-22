@@ -28,14 +28,19 @@
 			<br><br>
 		        <label for="adquisicion">Fecha de adquisición:*</label>
 		        <input type="date" name="adquisicion" required>
-			<br><br><br><br><br><br><br><br>
-		    	<button class="submit" type="submit" name="guardar">Guardar datos</button>
-		    
 	</form>
-	<a href="libros_datos.php">Mostrar los libros guardados</a>
-	</br>
 	<br>
+	<br>
+	<div class="mostrar">
+	<a href="libros_datos.php">Mostrar los libros guardados :)</a>
+	</div>
+	<br>
+	
 	<a href="index.php">Volver</a>
+	<br>
+	<button class="submit" type="submit" name="guardar">Guardar datos</button>
+	
+
 </body>
 </html>
 

@@ -34,10 +34,10 @@
   h4,
   h5 {
     margin: 0;
-    font-weight: 100px;
+    font-weight: 10px;
     font-family: "Homemade apple";
     letter-spacing: 0.8px;
-    font-size: 30px;
+    font-size: 23px;
  }
   
   .modal__featured > .button {
@@ -48,7 +48,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     border: 0;
-    border-radius: 2px;
+    border-radius: 10px;
     outline: 0;
     box-shadow: 3px 30px 20px rgba(0, 0, 0, 0.2);
     transition: all 2s; }
@@ -244,18 +244,37 @@
         text-decoration: none;
         margin-bottom: 6px;
         transition: all 0.375s;
+        border: solid 2px #001220;
+        background: #001220;
+        border-radius: 15rem;
+        padding: 6px 6px 6px;
+
     }
 
     a:hover{
-        color: #ab6600;
-        letter-spacing: 0.15px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
     }
 
+    .mostrar > a {
+      color: #FBAE3C;
+      font-size: 0.9rem;
+      text-decoration: none;
+      margin-bottom: 6px;
+      transition: all 0.375s;
+      border: 0;
+      background-color: white;
+  }
+
+    .mostrar > a:hover{
+      color: #001220;
+      letter-spacing: 0.2px;
+  }
 
     button {
         position: relative;
-        left: 25%;
-        bottom: 12%;
+        left: 12%;
+        top: 25%;
         transform: translate(-50%, -50%);
         color: #FBAE3C;
         text-decoration: none;
@@ -263,7 +282,8 @@
         display: inline-block;
         font-family: "Raleway";
         padding: 0.5em 2em;
-        border: 2px solid #FBAE3C;
+        width: auto;
+        border: 2px solid #001220;
         transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
         background-color: white;
     }
@@ -309,6 +329,14 @@
     span {
         font-size: small;
         color: red;
+    }
+
+    input{
+      font-family: Raleway;
+    }
+
+    .volver > a:hover{
+      color: red;
     }
 
 @keyframes rotate{
