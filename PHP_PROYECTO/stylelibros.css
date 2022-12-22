@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&family=Raleway:wght@700&family=Staatliches&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter&family=Quicksand&family=Raleway:wght@700&family=Staatliches&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter&family=Quicksand&family=Raleway:wght@700&family=Reenie+Beanie&family=Staatliches&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 *{
     box-sizing: border-box;
 }
@@ -251,22 +253,58 @@
 
 
     button {
-    cursor: pointer;
-    border-radius: 0.5rem;
-    border-width: 0.5cm;
-    background-color: white;
-    border: 0;
-    font-family: inherit;
-    font-size: 1.12rem;
-    font-weight: 600;
-    text-align: center;
-    transition: all 0.375s;
-    font-family: "Homemade Apple";
+        position: relative;
+        left: 25%;
+        bottom: 12%;
+        transform: translate(-50%, -50%);
+        color: #FBAE3C;
+        text-decoration: none;
+        font-size: 1em;
+        display: inline-block;
+        font-family: "Raleway";
+        padding: 0.5em 2em;
+        border: 2px solid #FBAE3C;
+        transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+        background-color: white;
     }
-
-    button:hover{
-        letter-spacing: 0.15px;
-    }
+      button::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 100%;
+        bottom: 0;
+        background: #FBAE3C;
+        transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+        z-index: -1;
+      }
+      button::after {
+        content: "";
+        display: inline-block;
+        background-image: url("https://cdn-icons-png.flaticon.com/128/109/109617.png");
+        position: absolute;
+        top: 0;
+        left: calc(100% - 3em);
+        right: 3em;
+        bottom: 0;
+        background-size: 1.5em;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+      }
+      button:hover {
+        padding: 0.5em 3.5em 0.5em 0.5em;
+      }
+      button:hover::before {
+        left: calc(100% - 3em);
+        right: 0;
+        transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+      }
+      button:hover::after {
+        right: 0;
+        transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+      }
 
     span {
         font-size: small;
