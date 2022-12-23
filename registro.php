@@ -5,7 +5,7 @@ include_once 'funcionesBaseDatos.php';
 if (isset($_POST['registrar']))
 {
     // Preparamos la consulta
-    $nombre  =  $_POST['nombre'];
+    $nombre  =  $_POST['usuario'];
     $password     = $_POST['password'];
     $password2 = $_POST['password2'];
     
