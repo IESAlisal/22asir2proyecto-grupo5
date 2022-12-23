@@ -22,7 +22,7 @@ body{
 
 .borrado{
     color: #001122;
-    background-color: #fa4949;
+    background-color: #FF0066;
     position: relative;
     z-index: 3;
     width: 90%;
@@ -46,7 +46,7 @@ body{
 }
 
 .borrado > button:hover{
-    background-color: #fa4949;
+    background-color: #FF0066;
     color: white;
     letter-spacing: 0.5px;
 }
@@ -70,7 +70,7 @@ button{
 }
 
 button:hover{
-    background-color: #fa4949;
+    background-color: #FF0066;
     letter-spacing: 0.7px;
 }
 
